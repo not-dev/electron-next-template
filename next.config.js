@@ -1,8 +1,6 @@
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig = {
-  output: 'export',
-}
+import nextConfig from './renderer/next.config'
 
 module.exports = nextConfig
